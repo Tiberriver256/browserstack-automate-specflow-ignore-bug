@@ -1,0 +1,13 @@
+packages/
+bin
+obj
+*.user
+*.suo
+*.html
+*.txt
+*.xml
+*.features.cs
+.DS_Store
+.vs
+*.log
+*.feature.cs

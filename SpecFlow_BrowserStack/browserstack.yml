@@ -1,0 +1,17 @@
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+parallelsPerPlatform: 5
+browserstackLocal: false
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
+# ===================
+# Debugging features
+# ===================
+debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
+networkLogs: false # <boolean> Set to true to enable HAR logs capturing
+interactiveDebugging: false
+consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
+# Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
